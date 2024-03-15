@@ -1,6 +1,7 @@
 <?php
 require_once('./config.php');
 session_start();
+// TES2
 
 $result = mysqli_query($conn, 'SELECT * FROM mahasiswa');
 
@@ -61,7 +62,7 @@ $result = mysqli_query($conn, 'SELECT * FROM mahasiswa');
                 <th>Nama</th>
                 <th>Kelmin</th>
                 <th>Aksi</th>
-            </tr>  
+            </tr>
         </thead>
         <tbody>
 
